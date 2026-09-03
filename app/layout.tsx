@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const siteOrigin = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3002';
+const siteOrigin =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  'https://critter-cosmos-arcade.ndroo.chatgpt.site';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin),
